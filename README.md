@@ -1,8 +1,3 @@
-Yes — your README had Git merge conflict markers (`<<<<<<< HEAD`, `=======`, `>>>>>>>`) in the tester account and license sections. I cleaned it and made it more polished for GitHub. 
-
-Copy this into `README.md`:
-
-````md
 # 🚀 Resume Builder with AI
 
 A modern AI-powered resume builder with live preview, built using React, Vite, Strapi, Clerk, MySQL, and Google Gemini API.
@@ -61,7 +56,7 @@ Install dependencies:
 
 ```bash
 npm install
-````
+```
 
 Run the frontend development server:
 
@@ -124,16 +119,16 @@ VITE_GEMINI_API_KEY=your_gemini_api_key
 
 A tester account is available for evaluating the Resume Builder system without creating a new account.
 
-| Field    | Details                                                                                                                                                    |
-| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Email    | `resume.tester123@gmail.com`                                                                                                                               |
-| Username | `resumeTester`                                                                                                                                             |
-| Purpose  | Testing the dashboard, resume editor, templates, live preview, public sharing, print/PDF export, duplicate, archive, publish, restore, and delete features |
+| Field | Details |
+|---|---|
+| Email | `resume.tester123@gmail.com` |
+| Username | `resumeTester` |
+| Purpose | Testing the dashboard, resume editor, templates, live preview, public sharing, print/PDF export, duplicate, archive, publish, restore, and delete features |
 
 <details>
   <summary>Password</summary>
 
-`apple.juice99`
+  `apple.juice99`
 
 </details>
 
@@ -193,45 +188,42 @@ Users can publish resumes, generate public shareable links, and print or export 
 
 The Strapi backend manages the following main collections:
 
-* UserResume
-* Resume
-* Work
-* Education
-* Skill
-* CustomSection
-* Theme
+- UserResume
+- Resume
+- Work
+- Education
+- Skill
+- CustomSection
+- Theme
 
 ---
 
 ## 📌 Notes
 
-* The system uses Strapi `documentId` when working with API records and relations.
-* Resume data is stored and managed through Strapi.
-* Authentication is handled using Clerk.
-* AI content generation is handled through Google Gemini API.
-* The project supports multiple resumes per user.
-* Published resumes can be shared using public read-only links.
-* Archived resumes are read-only unless restored.
-* Private resume data is only accessible to authenticated users.
-* API keys and sensitive environment variables should not be committed to GitHub.
+- The system uses Strapi `documentId` when working with API records and relations.
+- Resume data is stored and managed through Strapi.
+- Authentication is handled using Clerk.
+- AI content generation is handled through Google Gemini API.
+- The project supports multiple resumes per user.
+- Published resumes can be shared using public read-only links.
+- Archived resumes are read-only unless restored.
+- Private resume data is only accessible to authenticated users.
+- API keys and sensitive environment variables should not be committed to GitHub.
 
 ---
 
 ## 👩‍💻 Project Information
 
-| Field        | Details                        |
-| ------------ | ------------------------------ |
-| Project Name | Resume Builder with AI         |
-| Student      | Razan Adel Alzari              |
-| Student ID   | 6220150                        |
-| Course       | TM471 Final Year Project       |
-| University   | Arab Open University – Bahrain |
+| Field | Details |
+|---|---|
+| Project Name | Resume Builder with AI |
+| Student | Razan Adel Alzari |
+| Student ID | 6220150 |
+| Course | TM471 Final Year Project |
+| University | Arab Open University – Bahrain |
 
 ---
 
 ## 📄 License
 
 This project was developed as part of a final year university project.
-
-```
-```
